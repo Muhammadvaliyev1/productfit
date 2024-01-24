@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background: var(--Style2_ColorMain, #F8FFFF);
+}
+
+.button-box:hover {
+  box-shadow: 0px 5px 10px 0px rgba(30, 149, 155, 0.50);
+  transition: all;
+  transition-duration: 150ms;
+}
+
+.liner {
+  background: linear-gradient(180deg, #FFF 0%, #F7F9FD 100%);
+}
+
+.shadow-box {
+  box-shadow: 0px 4px 4px 0px rgba(30, 149, 155, 0.50);
+}
+
+.shadow-box:hover {
+  box-shadow: 0px 4px 4px 0px rgba(30, 149, 155, 0.5) inset;
+}
+
+.box {
+  box-shadow: 0px 5px 10px 0px rgba(30, 149, 155, 0.50);
+}
+
+.linerr {
+  box-shadow: 0px 5px 10px 0px rgba(30, 149, 155, 0.50);
+}
